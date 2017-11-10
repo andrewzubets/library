@@ -13,7 +13,7 @@
     }],
     "autoload": {
         "psr-4": {
-            "Azub\\": "Twitter/"
+            "Azub\\": "Azub/"
         }
     },
     "version": "1.0.0", 
