@@ -1,22 +1,22 @@
 {
-    "name": "andrewzubets/library", //naming our package
-    "description": "Custom package", // Description about package
-    "keywords": [], // Keywords
-    "type": "package", //Since it’s a package  we define its type package
+    "name": "andrewzubets/library", 
+    "description": "Custom package", 
+    "keywords": [], 
+    "type": "package",
     "require": {
      
      },
     "license": "MIT",
-    "authors": [{ //Your information
+    "authors": [{
         "name": "Andrew Zubets", 
         "email": "andrewzubets@gmail.com"
     }],
     "autoload": {
         "psr-4": {
-            "Azub\\": "Twitter/"
+            "Azub\\": "Azub/"
         }
     },
-    "version": "1.0.0", //Version of the package
-    "minimum-stability": "dev" //Stability
+    "version": "1.0.0", 
+    "minimum-stability": "stable"
 
 }
